@@ -1,0 +1,80 @@
+@import url(./colors/theme.light.css);
+@import url(./colors/tokens.css);
+@import url(./base/elevation.css);
+@import url(./base/state.css);
+@import url(./components/button.css);
+@import url(./components/badge.css);
+
+:root {
+	--bs-body-font-family: "Outfit Variable";
+	/* --body-background-color: #f5f6f7; */
+	--body-background-color: var(--md-sys-color-surface);
+	--backplate-component-background-color: white;
+	--primary-color: #0d1b1e;
+	--secondary-color: #c3d8c5;
+	--tertiary-color: #7798ab;
+	--accent-color: #e8dcb9;
+	--text-color: black;
+	--component-hover-bg: #ebeaea;
+	--scrollbar-track-bg: #e6e6e6;
+	--scrollbar-thumb: #666;
+	--scrollbar-thumb-hover: #333;
+	--modal-title-icon-width: 1.1em;
+	--modal-title-icon-height: 1.1em;
+	--label-icon-margin: 0.5rem;
+	--bs-border-radius: 1.5rem;
+	--sidebar-width: 3.75rem;
+	/* --box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); */
+	--button-border-radius: 1rem;
+	/* Shadows */
+	/* --box-shadow: 0 0.5rem 1rem var(--md-sys-color-shadow);
+	--box-shadow-sm: 0 0.125rem 0.25rem var(--md-sys-color-shadow);
+	--box-shadow-lg: 0 1rem 3rem var(--md-sys-color-shadow);
+	--box-shadow-inset: inset 0 1px 2px var(--md-sys-color-shadow); */
+}
+
+/* Card Component */
+.card {
+	--bs-card-border-radius: 1.5rem;
+	--bs-card-inner-border-radius: 1.5rem;
+	background-color: var(--md-sys-color-surface-container-low);
+  /* color: var(--md-sys-color-on-surface); */
+}
+
+.dropdown-menu{
+	--bs-dropdown-border-radius: 1rem;
+}
+
+/* .card-body{
+  background-color: var(--md-sys-color-surface-variant);
+  color: var(--md-sys-color-on-surface-variant);
+} */
+
+/* Define the styles for the scrollbar track */
+::-webkit-scrollbar {
+	display: none;
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: var(--scrollbar-track-bg);
+	border-radius: 4px;
+}
+
+/* Define the styles for the scrollbar handle */
+::-webkit-scrollbar-thumb {
+	background-color: var(--scrollbar-thumb);
+	border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: var(--scrollbar-thumb-hover);
+}
+
+/* Links Style */
+a:hover,
+a:visited,
+a:active,
+a:link {
+	text-decoration: none;
+}

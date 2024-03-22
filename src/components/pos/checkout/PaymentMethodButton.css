@@ -1,0 +1,33 @@
+/* Payment method button style */
+button.payment-method-btn.dropdown-toggle {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    /* background-color: var(--md-sys-color-surface-container-low); */
+    /* border: 0.05rem solid var(--md-sys-color-outline); */
+    border-radius: var(--button-border-radius);
+	word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    margin-left: auto;
+    align-self: flex-end;
+    height: 100%;
+}
+/* button.payment-method-btn.dropdown-toggle:hover{
+    color: var(--md-sys-color-on-secondary-container);
+    background-color: rgba(var(--md-sys-color-on-secondary-container-rgb), var(--md-sys-state-hover-state-layer-opacity));
+} */
+button.payment-method-btn.dropdown-toggle::before{
+    content: '';
+    margin-left: 0.5rem;
+}
+button.payment-method-btn.dropdown-toggle::after{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+button.payment-method-menu.dropdown-menu{
+    background-color: var(--md-sys-color-surface-container);
+    color: var(--md-sys-color-on-surface-container);
+}

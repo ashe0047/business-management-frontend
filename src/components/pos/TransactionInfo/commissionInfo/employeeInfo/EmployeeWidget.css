@@ -1,0 +1,95 @@
+div.widget.card-body {
+	box-shadow: var(--box-shadow);
+	-moz-box-shadow: var(--box-shadow);
+	-webkit-box-shadow: var(--box-shadow);
+}
+
+div.emp-info-col.list-group-item {
+	width: auto;
+	border: none;
+	text-align: end;
+	padding-right: 0;
+	padding-left: 0.5rem;
+	font-weight: 500;
+	background-color: transparent;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+
+div.emp-contact-col.list-group-item {
+	padding-left: 0.5rem;
+	flex-grow: 1;
+	border: none;
+	background-color: transparent;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+div.widget-header.card-header {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+div.accordion-flush div.accordion-item:last-child:not(.collapsed) {
+	border-radius: var(--bs-border-radius);
+	border-bottom: var(--bs-accordion-border-width) solid var(--md-sys-color-surface-container-low);
+}
+
+div.widget-header.card-header button.accordion-button,
+div.widget-header.card-header button.accordion-button.collapsed {
+	border-radius: var(--bs-border-radius);
+	/* padding: 0.5rem var(--bs-accordion-btn-padding-x); */
+}
+div.widget-header.card-header button.accordion-button::after {
+	display: none;
+}
+
+div.btn-divider {
+	flex-grow: 1;
+	width: 0.1rem;
+	margin: 0.5rem 0.1rem;
+	background-color: var(--primary-color);
+	border-radius: 99px;
+}
+
+div.widget-body.accordion-body {
+	margin: 1.5rem 1rem 1rem 1rem;
+	background-color: var(--secondary-color);
+	border-radius: var(--bs-border-radius);
+}
+
+
+div.staff-badge-container{
+	display: flex;
+	flex-direction: row;
+	/* flex-grow: 1; */
+	/* width: 100%;/ */
+	position: relative;
+	background-color: transparent;
+	border: none;
+}
+
+div.staff-badge-container div.staff-badge{
+	position: absolute;
+	margin-left: 100%;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+div.staff-badge-container div.staff-badge.show{
+	margin: 0.25rem 0.25rem;
+	opacity: 1;
+	position: relative;
+}
+
+button.dropdown-toggle.add-staff-btn{
+	flex-direction: row;
+	align-items: center;
+	border-radius: var(--button-border-radius);
+}
+button.dropdown-toggle.add-staff-btn::after{
+	display: none;
+}

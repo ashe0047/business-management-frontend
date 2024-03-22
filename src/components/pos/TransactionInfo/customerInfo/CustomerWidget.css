@@ -1,0 +1,80 @@
+div.widget.card-body {
+	box-shadow: var(--box-shadow);
+	-moz-box-shadow: var(--box-shadow);
+	-webkit-box-shadow: var(--box-shadow);
+}
+
+div.cust-info-col.list-group-item {
+	width: auto;
+	border: none;
+	text-align: end;
+	padding-right: 0;
+	padding-left: 0.5rem;
+	font-weight: 500;
+	background-color: transparent;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+
+div.cust-contact-col.list-group-item {
+	padding-left: 0.5rem;
+	flex-grow: 1;
+	border: none;
+	background-color: transparent;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+div.widget-header.card-header {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+div.accordion-flush div.accordion-item {
+	border-radius: var(--bs-border-radius);
+	margin-bottom: 0.5rem;
+	background-color: var(--md-sys-color-surface-dim);
+	box-shadow: var(--md-sys-elevation-level1);
+}
+
+div.widget-header.card-header button.accordion-button:hover,
+div.widget-header.card-header button.accordion-button:active,
+div.widget-header.card-header button.accordion-button:focus-visible {
+	background-color: transparent;
+	color: var(--secondary-color);
+	box-shadow: none;
+}
+
+div.widget-header.card-header button.accordion-button.collapsed,
+div.widget-header.card-header button.accordion-button:focus {
+	color: var(--md-sys-color-on-surface-variant);
+    background-color: var(--md-sys-color-surface-container-high);
+	border-radius: var(--bs-border-radius);
+    box-shadow: none;
+	/* padding: 0.5rem var(--bs-accordion-btn-padding-x); */
+}
+
+div.widget-header.card-header button.accordion-button:not(.collapsed) {
+	background-color: var(--md-sys-color-secondary-container);
+	color: var(--md-sys-color-on-secondary-container);
+	box-shadow: none;
+}
+
+div.widget-header.card-header button.accordion-button::after {
+	display: none;
+}
+
+div.btn-divider {
+	flex-grow: 1;
+	width: 0.1rem;
+	margin: 0.5rem 0.1rem;
+	background-color: var(--primary-color);
+	border-radius: 99px;
+}
+
+div.widget-body.accordion-body {
+	margin: 1.5rem 1rem 1rem 1rem;
+	background-color: var(--secondary-color);
+	border-radius: var(--bs-border-radius);
+}

@@ -1,0 +1,66 @@
+.invoice-container {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.line-items {
+  margin-top: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.line-items th {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.line-items td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: right;
+}
+
+.footer {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media print {
+  body {
+    width: 210mm; /* A4 width */
+    height: 297mm; /* A4 height */
+    margin: 0 auto; /* center the content */
+    padding: 10mm; /* add padding to prevent content from touching the edges */
+    font-size: 12pt; /* adjust font size as needed */
+  }
+
+  /* Adjust the layout for the invoice content */
+  .invoice {
+    width: 100%;
+    margin-top: 20mm;
+    margin-bottom: 20mm;
+  }
+
+  /* Hide elements that should not be printed */
+  .no-print {
+    display: none;
+  }
+}
+
+@page {
+  margin: 0 auto;
+}

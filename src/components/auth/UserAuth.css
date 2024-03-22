@@ -1,0 +1,23 @@
+
+button.login-btn {
+    /* color: var(--md-sys-color-primary-container-light);
+    background-color: var(--md-sys-color-on-primary-container-light);
+    font-weight: bold; */
+    height: 2.5rem;
+    border-radius: var(--button-border-radius);
+    /* margin-top: 2rem; */
+}
+
+/* button.btn.login-btn:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+} */
+
+input.auth-field.form-control:focus{
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 0.25rem var(--accent-color);
+}
+
+label.form-label{
+    font-weight: bold;
+}

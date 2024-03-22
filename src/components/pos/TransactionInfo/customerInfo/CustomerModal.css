@@ -1,0 +1,74 @@
+div.modal-dialog{
+    width: 70%;
+}
+
+table.table{
+    border-collapse: separate;
+    border-spacing: 0 12px;
+}
+
+table.table.table-hover thead{
+    top: 0;
+    position: sticky;
+    --bs-table-color: var(--secondary-color);
+    --bs-table-bg: var(--primary-color);
+
+}
+
+table.table>:not(caption)>*>*{
+    padding: 1.2rem 0.5rem;
+}
+table thead tr{
+    border-top: none;
+    color: var(--secondary-color);
+}
+
+table tbody{
+    background-color: transparent;
+}
+table tbody tr{
+    background-color: var(--backplate-component-background-color);
+}
+table tbody tr.selected{
+    /* border: 1px solid var(--primary-color); */
+    box-shadow: 0 0 10px var(--primary-color);
+}
+input.form-check-input:checked{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+button.btn-cust-filter.dropdown-toggle, button.btn-cust-filter.dropdown-toggle.show{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+}
+
+button.btn-cust-filter.dropdown-toggle:hover, button.btn-cust-filter.dropdown-toggle:first-child:active, button.btn-cust-filter.dropdown-toggle:focus, button.btn-cust-filter.dropdown-toggle:focus-visible{
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+}
+
+span.input-group-text{
+    background-color: var(--backplate-component-background-color);
+    border: none;
+}
+.input-group input.form-control{
+    /* border-color: var(--primary-color); */
+    border: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.input-group input.form-control:focus{
+    z-index: 0;
+    /* border: 1px solid var(--primary-color); */
+    border: none;
+    box-shadow: none;
+    margin-left: 0px;
+}
+
+div.cust-badge{
+    margin: 0.25rem 0.25rem;
+}

@@ -1,0 +1,234 @@
+.btn-md {
+    /* height: 20px;
+    padding-left: 12px;
+    padding-right: 12px; */
+}
+/* Elevated button - Enabled state */
+.btn-md-elevated {
+	background-color: var(--md-sys-color-surface-container-low);
+	box-shadow: var(--md-sys-elevation-level1);
+	color: var(--md-sys-color-on-secondary-container);
+	font-family: var(--md-sys-typescale-label-large-font-family-name);
+	line-height: var(--md-sys-typescale-label-large-line-height);
+	font-size: var(--md-sys-typescale-label-large-font-size);
+	letter-spacing: var(--md-sys-typescale-label-large-letter-spacing);
+	font-weight: var(--md-sys-typescale-label-large-font-weight);
+}
+
+.btn-md-elevated-icon {
+	color: var(--md-sys-color-primary);
+}
+
+/* Elevated button - Hovered state */
+.btn-md-elevated:hover {
+	background-color: var(--md-sys-color-on-secondary-container);
+	box-shadow: var(--md-sys-elevation-level2);
+}
+
+.btn-md-elevated-icon:hover {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Elevated button - Focused state */
+.btn-md-elevated:focus {
+	background-color: var(--md-sys-color-on-secondary-container);
+	box-shadow: var(--md-sys-elevation-level1);
+}
+
+.btn-md-elevated-icon:focus {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Elevated button - Pressed state */
+.btn-md-elevated:active {
+	background-color: var(--md-sys-color-on-secondary-container);
+	box-shadow: var(--md-sys-elevation-level1);
+}
+
+.btn-md-elevated-icon:active {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Filled button - Enabled state */
+.btn-md-filled {
+	background-color: var(--md-sys-color-on-secondary-container);
+	box-shadow: var(--md-sys-elevation-level0);
+	color: var(--md-sys-color-secondary-container);
+	font-family: var(--md-sys-typescale-label-large-font-family-name);
+	line-height: var(--md-sys-typescale-label-large-line-height);
+	font-size: var(--md-sys-typescale-label-large-font-size);
+	letter-spacing: var(--md-sys-typescale-label-large-letter-spacing);
+	font-weight: var(--md-sys-typescale-label-large-font-weight);
+}
+
+.btn-md-filled-icon {
+	color: var(--md-sys-color-secondary-container);
+}
+
+/* Filled button - Hovered state */
+.btn-md-filled:hover {
+	box-shadow: var(--md-sys-elevation-level1);
+}
+
+.btn-md-filled-icon:hover {
+	color: var(--md-sys-color-secondary-container);
+}
+
+/* Filled button - Focused state */
+.btn-md-filled:focus {
+	background-color: rgba(var(--md-sys-color-secondary-container-rgb), calc(1 - var(--md-sys-state-hover-state-layer-opacity)));
+    box-shadow: var(--md-sys-elevation-level0);
+
+}
+
+.btn-md-filled-icon:focus {
+	color: var(--md-sys-color-secondary-container);
+}
+
+/* Filled button - Pressed state */
+.btn-md-filled:active {
+	background-color: rgba(var(--md-sys-color-secondary-container-rgb), calc(1 - var(--md-sys-state-hover-state-layer-opacity)));
+    box-shadow: var(--md-sys-elevation-level0);
+
+}
+
+.btn-md-filled-icon:active {
+	color: var(--md-sys-color-secondary-container);
+}
+
+/* Filled tonal button - Enabled state */
+.btn-md-filled-tonal {
+	background-color: var(--md-sys-color-secondary-container);
+    border: none;
+	box-shadow: var(--md-sys-elevation-level0);
+	color: var(--md-sys-color-on-secondary-container);
+	font-family: var(--md-sys-typescale-label-large-font-family-name);
+	line-height: var(--md-sys-typescale-label-large-line-height);
+	font-size: var(--md-sys-typescale-label-large-font-size);
+	letter-spacing: var(--md-sys-typescale-label-large-letter-spacing);
+	font-weight: var(--md-sys-typescale-label-large-font-weight);
+}
+
+.btn-md-filled-tonal-icon {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Filled tonal button - Hovered state */
+.btn-md-filled-tonal:hover {
+	box-shadow: var(--md-sys-elevation-level1);
+}
+
+.btn-md-filled-tonal-icon:hover {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Filled tonal button - Focused state */
+.btn-md-filled-tonal:focus {
+	background-color: rgba(var(--md-sys-color-on-secondary-container-rgb), var(--md-sys-state-hover-state-layer-opacity));
+	box-shadow: var(--md-sys-elevation-level0);
+
+}
+
+.btn-md-filled-tonal-icon:focus {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Filled tonal button - Pressed state */
+.btn-md-filled-tonal:active {
+	background-color: rgba(var(--md-sys-color-on-secondary-container-rgb), var(--md-sys-state-hover-state-layer-opacity));
+	box-shadow: var(--md-sys-elevation-level0);
+
+}
+
+.btn-md-filled-tonal-icon:active {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Outlined button - Enabled state */
+.btn-md-outlined {
+	color: var(--md-sys-color-on-secondary-container);
+    background-color: transparent;
+	border: 0.1rem solid var(--md-sys-color-outline);
+	font-family: var(--md-sys-typescale-label-large-font-family-name);
+	line-height: var(--md-sys-typescale-label-large-line-height);
+	font-size: var(--md-sys-typescale-label-large-font-size);
+	letter-spacing: var(--md-sys-typescale-label-large-letter-spacing);
+	font-weight: var(--md-sys-typescale-label-large-font-weight);
+	box-shadow: var(--md-sys-elevation-level0);
+}
+
+.btn-md-outlined-icon {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Outlined button - Hovered state */
+.btn-md-outlined:hover {
+	color: var(--md-sys-color-on-secondary-container);
+    background-color: rgba(var(--md-sys-color-on-secondary-container-rgb), var(--md-sys-state-hover-state-layer-opacity));
+}
+
+.btn-md-outlined-icon:hover {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Outlined button - Focused state */
+.btn-md-outlined:focus {
+    border-color: var(--md-sys-color-on-secondary-container);
+	background-color: rgba(var(--md-sys-color-on-secondary-container-rgb), var(--md-sys-state-focus-state-layer-opacity));
+}
+
+.btn-md-outlined-icon:focus {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Outlined button - Pressed state */
+.btn-md-outlined:active {
+	background-color: rgba(var(--md-sys-color-on-secondary-container-rgb), var(--md-sys-state-pressed-state-layer-opacity));
+}
+
+.btn-md-outlined-icon:active {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Text button - Enabled state */
+.btn-md-text {
+	box-shadow: var(--md-sys-elevation-level0);
+	color: var(--md-sys-color-on-secondary-container);
+	font-family: var(--md-sys-typescale-label-large-font-family-name);
+	line-height: var(--md-sys-typescale-label-large-line-height);
+	font-size: var(--md-sys-typescale-label-large-font-size);
+	letter-spacing: var(--md-sys-typescale-label-large-letter-spacing);
+	font-weight: var(--md-sys-typescale-label-large-font-weight);
+}
+
+.btn-md-text-icon {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Text button - Hovered state */
+.btn-md-text:hover {
+	color: var(--md-sys-color-on-secondary-container);
+    background-color: rgba(var(--md-sys-color-on-secondary-container-rgb), var(--md-sys-state-hover-state-layer-opacity));}
+
+.btn-md-text-icon:hover {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Text button - Focused state */
+.btn-md-text:focus {
+    border-color: var(--md-sys-color-on-secondary-container);
+	background-color: rgba(var(--md-sys-color-on-secondary-container-rgb), var(--md-sys-state-focus-state-layer-opacity));
+}
+
+.btn-md-text-icon:focus {
+	color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Text button - Pressed state */
+.btn-md-text:active {
+	background-color: rgba(var(--md-sys-color-on-secondary-container-rgb), var(--md-sys-state-pressed-state-layer-opacity));
+}
+
+.btn-md-text-icon:active {
+	color: var(--md-sys-color-on-secondary-container);
+}

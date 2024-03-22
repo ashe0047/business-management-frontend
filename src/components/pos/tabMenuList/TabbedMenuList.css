@@ -1,0 +1,36 @@
+div.nav.nav-pills{
+    /* border: 1px solid var(--primary-color); */
+    /* box-shadow: var(--box-shadow);
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow); */
+    background-color: var(--md-sys-color-surface-container);
+    border-radius: var(--bs-border-radius);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+/* div.nav.nav-pills .nav-item:first-child{
+    margin-left: -1rem;
+} */
+div.nav.nav-pills .nav-link{
+    display: flex;
+    flex-direction: row;
+    color: var(--md-sys-color-on-surface);
+    background-color: var(--md-sys-color-surface-container);
+    margin-right: 10px;
+    justify-content: center;
+}
+div.nav.nav-pills .nav-link:hover{
+    background-color: rgba(var(--md-sys-color-on-surface-rgb), var(--md-sys-state-hover-state-layer-opacity));
+    border-color: var(--md-sys-color-on-surface);
+}
+div.nav.nav-pills .nav-link.active{
+    color: var(--md-sys-color-on-secondary-container);
+    border-bottom: 1rem;
+    border-color: var(--md-sys-color-primary);
+    background-color: var(--md-sys-color-secondary-container);
+    /* border-color:var(--primary-color) ; */
+}
+/* Acts like row wrapper by offsetting the col padding */
+div.tab-content{
+    margin-left: calc(-1 * var(--bs-gutter-x));
+    margin-right: calc(-1 * var(--bs-gutter-x));
+}

@@ -1,0 +1,57 @@
+@import '../MenuFilter.css';
+
+div.accordion-item{
+    border: none;
+}
+div.menu-header.accordion-button{
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: var(--bs-card-border-radius);
+    /* height: 100%; */
+    box-shadow: 6px 11px 31px -15px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 6px 11px 31px -15px rgba(0,0,0,0.9);
+    -moz-box-shadow: 6px 11px 31px -15px rgba(0,0,0,0.9);
+    /* padding: 0.5rem 1rem 0.5rem 1rem; */
+    flex-direction: row;
+    
+}
+div.menu-header.accordion-button:hover{
+    background-color: var(--accent-color);
+}
+div.menu-header.accordion-button:hover h5.menu-title, div.menu-header.accordion-button:hover button.filter-btn{
+    color: var(--primary-color);
+}
+div.menu-header.accordion-button button.filter-btn:hover, button.filter-btn:active, button.filter-btn:focus, button.filter-btn:focus-visible{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+/* .accordion-button::after{
+    display: none;
+} */
+
+
+.menu-list.card{
+    background-color: transparent;
+    border: none;
+    height: 0;
+    /* display: flex; */
+    align-items:center ;
+    flex-grow: 1;
+    overflow-y: auto;
+    border-radius: none;
+}
+
+div.accordion-collapse.collapse.show{
+    height: 100%;
+}
+
+div.accordion-collapse.collapse{
+    transition: height .25s ease-in-out;
+}
+
+
+
+h5.menu-title, div.menu-header.accordion-button::after{
+    color: var(--secondary-color); 
+    margin-bottom: 0;
+}

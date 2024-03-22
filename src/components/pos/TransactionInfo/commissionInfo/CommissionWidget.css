@@ -1,0 +1,7 @@
+div.styled-card.card div.card-body.comm-body{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    box-shadow: var(--md-sys-elevation-level1);
+    -webkit-box-shadow: var(--md-sys-elevation-level1);
+}

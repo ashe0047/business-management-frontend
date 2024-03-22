@@ -1,0 +1,52 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+	appearance: textfield;
+}
+
+div.qty-input.input-group {
+	width: auto;
+	height: 1.5rem;
+}
+
+input.input-field.form-control {
+	background-color: transparent;
+	border: none;
+	height: 100%;
+	min-height: 0;
+}
+
+input.input-field.form-control:focus {
+	border: none;
+	box-shadow: none;
+	z-index: 0;
+}
+
+div.qty-input.input-group:last-child
+	button.qty-change-btn.btn-md.btn-md-outlined,
+div.input-group
+	> :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+		.valid-feedback
+	):not(.invalid-tooltip):not(.invalid-feedback) {
+	display: flex;
+	flex-direction: column;
+	border-radius: 0.5rem;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	height: 100%;
+	min-height: 0;
+	padding: auto;
+	font-weight: bolder;
+}
+
+/* div.qty-input.input-group:last-child button.qty-change-btn.btn.btn-sm:hover{
+  border-color: var(--md-sys-color-outline);
+  background-color: rgba(var(--md-sys-color-primary-rgb), var(--md-sys-state-hover-state-layer-opacity));
+  color: var(--md-sys-color-primary);
+} */

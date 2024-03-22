@@ -1,0 +1,23 @@
+
+button.register-btn {
+    /* color: var(--secondary-color);
+    background-color: var(--primary-color); */
+    /* font-weight: bold; */
+    margin-top: 2rem;
+    height: 2.5rem;
+    border-radius: var(--button-border-radius);
+}
+
+button.btn.register-btn:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+input.auth-field.form-control:focus{
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 0.25rem var(--accent-color);
+}
+
+label.form-label{
+    font-weight: bold;
+}

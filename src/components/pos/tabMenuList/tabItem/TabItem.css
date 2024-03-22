@@ -1,0 +1,17 @@
+div.tab-pane.active.show{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+div.tabbed-menu-list.card{
+    background-color: transparent;
+    border: none;
+    height: 0;
+    width: 100%;
+    /* display: flex; */
+    align-items:center ;
+    flex-grow: 1;
+    overflow-y: auto;
+    border-radius: none;
+}

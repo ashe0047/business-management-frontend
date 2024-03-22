@@ -1,0 +1,4 @@
+div.dropdown-menu{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

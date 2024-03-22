@@ -1,0 +1,76 @@
+.sidebar.card {
+	width: var(--sidebar-width);
+	height: 100%;
+	color: var(--md-sys-color-on-surface-variant);
+	background-color: var(--md-sys-color-surface-dim);
+	padding: auto;
+	transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	box-shadow: var(--md-sys-elevation-level4);
+	-webkit-box-shadow: var(--md-sys-elevation-level4);
+	-moz-box-shadow: var(--md-sys-elevation-level4);
+	z-index: 3;
+	border: 0;
+}
+
+.sidebar.card.open {
+	width: 250px;
+}
+
+.sidebar.card .card-title{
+	border-bottom: 0.15rem solid var(--md-sys-color-outline-variant);
+}
+h4.sidebar-title {
+	color: var(--md-sys-color-on-surface-variant);
+}
+
+/* Button with dropdowns */
+.sidebar-menuitem.accordion-button,
+.sidebar-menuitem.accordion-item {
+	border-radius: var(--bs-border-radius);
+	border-color: transparent;
+	background: transparent;
+	color: var(--md-sys-color-on-surface-variant);
+	margin-bottom: 0.5rem;
+}
+
+.sidebar-menuitem.accordion-button:hover,
+.sidebar-menuitem.accordion-button:active,
+.sidebar-menuitem.accordion-button:focus,
+.sidebar-menuitem.accordion-button:focus-visible {
+	color: var(--md-sys-color-on-secondary-container);
+	background-color: var(--md-sys-color-secondary-container);
+	box-shadow: none;
+}
+
+/* Button with no dropdowns */
+.sidebar-menuitem.accordion-button.no-dropdown::after {
+	display: none;
+}
+
+.sidebar-menuitem.accordion-button.no-dropdown:hover,
+.sidebar-menuitem.accordion-button.no-dropdown:active,
+.sidebar-menuitem.accordion-button.no-dropdown:focus,
+.sidebar-menuitem.accordion-button.no-dropdown:focus-visible {
+	color: var(--md-sys-color-on-secondary-container);
+	background-color: var(--md-sys-color-secondary-container);
+	box-shadow: none;
+}
+
+.sidebar.card a {
+	padding-top: 10px;
+}
+
+.sidebar.card .card-footer{
+	border-top: 0.15rem solid var(--md-sys-color-outline-variant);
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.sidebar.card .card-footer .mode-control .mode-options{
+	padding: 0.5rem 0.75rem;
+
+}
+.sidebar.card .card-footer .nav{
+	border-top: 0.15rem solid var(--md-sys-color-outline-variant);
+}

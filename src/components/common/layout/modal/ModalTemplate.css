@@ -1,0 +1,73 @@
+button.modal-btn{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 0rem;
+}
+
+button svg.title-icon{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: var(--label-icon-margin);
+    width: var(--modal-title-icon-width);
+    height: var(--modal-title-icon-height);
+}
+
+button.modal-btn:focus{
+    color: var(--primary-color);
+}
+button.modal-btn:hover, button.modal-btn:first-child:active, button.modal-btn:focus-visible, :not(.btn-check)+.btn:active{
+    background-color:transparent;
+    color: var(--secondary-color);
+    border: none;
+    box-shadow: none;
+    /* box-shadow: var(--box-shadow);
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow); */
+}
+
+button.modal-btn h4{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+div.fade.modal.show{
+    display: flex !important;
+    flex-direction: column;
+}
+
+div.modal-title.h4{
+    display: flex;
+    flex-direction: row;
+}
+
+div.modal-title.h4 h6{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div.modal-title svg.title-icon{
+    margin-right: var(--label-icon-margin);
+    margin-bottom: auto;
+    margin-top: auto;
+    width: var(--modal-title-icon-width);
+    height: var(--modal-title-icon-height);
+}
+div.modal-content{
+    background-color: #dfe0e1;
+    flex-direction: column;
+    flex-grow: 1;
+}
+div.modal-dialog{
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+div.modal-body{
+    flex-direction: column;
+    flex-grow: 1;
+}

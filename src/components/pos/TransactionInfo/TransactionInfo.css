@@ -1,0 +1,9 @@
+div.transaction-bar.nav.nav-pills{
+    display: flex;
+    justify-content: end;
+    padding: 0.5rem 0.5rem;
+}
+
+div.nav.nav-pills hr.divider{
+    border-color: rgba(0, 0, 0, 0.7);
+}
